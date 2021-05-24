@@ -35,6 +35,48 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ModuleDetailActivity.class);
+                intent.putExtra("module", "C203");
+                startActivity(intent);
+            }
+        });
+        tvC228.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ModuleDetailActivity.class);
+                intent.putExtra("module", "C228");
+                startActivity(intent);
+            }
+        });
+        tvC328.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ModuleDetailActivity.class);
+                intent.putExtra("module", "C328");
+                startActivity(intent);
+            }
+        });
+        tvC331.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ModuleDetailActivity.class);
+                intent.putExtra("module", "C331");
+                startActivity(intent);
+            }
+        });
+        tvC346.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ModuleDetailActivity.class);
+                intent.putExtra("module", "C346");
+                startActivity(intent);
+            }
+        });
+        tvG953.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ModuleDetailActivity.class);
+                intent.putExtra("module", "G953");
+                startActivity(intent);
             }
         });
     }
